@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="shortcut icon" href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png" type="image/x-icon">
+    <link rel="stylesheet" href="zomatoindex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="nav">
+            <div>
+                
+                <p>Get The App</p>
+            </div>
+            <ul class="nav-bar">
+               <li>Investor Relations</li>
+                <li>Add Restaurant</li>
+                <li>Log in</li>
+                <li>Sign up</li>
+            </ul>
+        </div>
+        <div class="head">
+            <img class="logo" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="">
+            <h3>Discover the best food & drinks in Bengalure</h3>
+            <div class="search">
+                <div class="search-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>4th T Block East, Pattabhi</p>
+                </div>
+                <div class="search-item">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+                </div>
+            </div>
+        </div>
+        <div class="header-image">
+            <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt="">
+        </div>
+    </header>
+
+    
+
+    <!-- Section 1 -->
+    <section class="section-1">
+        <div class="section-1-item">
+            <div class="items-details"><p><b>Order Online</b></p></div>
+            <a href="https://www.zomato.com/bangalore/order-food-online?delivery_subzone=8890">
+            <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
+            " alt=""></a>
+        </div>
+        <div class="section-1-item">
+            <div class="items-details"><p><b>Dining Out</b></p></div>
+            <a href="https://www.zomato.com/bangalore/dine-out">
+            <img src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
+            " alt=""></a>
+        </div>
+        <div class="section-1-item">
+            <div class="items-details"><p><b>Nightlife and Clubs</b></p></div>
+            <a href="https://www.zomato.com/bangalore/drinks-and-nightlife">
+            <img src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*
+            " alt=""></a>
+        </div>
+    </section>
+
+    <section class="section-2">
+      <div class="section-2-heading">
+          <p><b>Collections<br>Lists of Restaurants, cafes, pubs in Bengalure</b></p>
+      </div>
+
+      <div class="sec-3">
+        <div class="box-1">
+            <div><span> Newly Opened <br> 17 places</span><i class="fas fa-caret-right "></i> </div>
+            <a href="https://www.zomato.com/bangalore/newly-opened">
+           <img src="https://b.zmtcdn.com/data/pictures/1/19107351/92327e4daae5bde3eeab16cec193a575_featured_v2.jpg" ></a>
+        </div>
+
+          <div class="box-1">
+            <div><span> Newly Opened <br> 17 places</span><i class="fas fa-caret-right "></i> </div>
+            <a href="https://www.zomato.com/bangalore/must-visit-restaurants">
+           <img src="https://b.zmtcdn.com/data/pictures/9/20318809/de2cc51e850db97b5473e844dfb83bfd_featured_v2.jpg" ></a>
+        </div>
+
+        <div class="box-1">
+            <div><span> Newly Opened <br> 17 places</span><i class="fas fa-caret-right "></i> </div>
+            <a href="https://www.zomato.com/bangalore/rooftop">
+           <img src="https://b.zmtcdn.com/data/pictures/1/19963631/2c6b9a87511f7644effe0ee4658f287c_featured_v2.jpg " ></a>
+        </div>
+
+
+        <div class="box-1">
+            <div><span> Newly Opened <br> 17 places</span><i class="fas fa-caret-right "></i> </div>
+            <a href="https://www.zomato.com/bangalore/trending-this-week">
+           <img src="https://b.zmtcdn.com/data/pictures/8/18617768/14ec9889f7e703bace76877a727d926d_featured_v2.jpg" ></a>
+        </div> 
+</div>
+   
+    <!-- SECTION 2 -->
+    <section class="section-2">
+        <div class="section-2-heading">
+            <p><b>Popular localities in and around Bengaluru</b></p>
+        </div>
+        <div class="section-2-container">
+            <div class="section-2-items">
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/bangalore/indiranagar-restaurants">
+                    <p class="item-head">Indiranagar</p></a>
+                    <p class="item-subhead">388 Places</p>
+                </div> 
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/bangalore/marathahalli-restaurants">
+                    <p class="item-head">Marathahalli</p></a>
+                    <p class="item-subhead">388 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/bangalore/whitefield-restaurants">
+                    <p class="item-head">Whitefield</p></a>
+                    <p class="item-subhead">388 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/bangalore/koramangala-5th-block-restaurants">
+                    <p class="item-head">Koramangala 5th Block</p></a>
+                    <p class="item-subhead">388 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/bangalore/hsr-restaurants">
+                    <p class="item-head">HSR</p></a>
+                    <p class="item-subhead">388 Places</p>
+                </div>
+                <div class="section-2-item">
+                  <a href="https://www.zomato.com/bangalore/jayanagar-restaurants">
+                    <p class="item-head">Jayanagar</p></a>
+                    <p class="item-subhead">388 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/bangalore/jp-nagar-restaurants">
+                    <p class="item-head">JP Nagar</p></a>
+                    <p class="item-subhead">388 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/bangalore/sarjapur-road-restaurants">
+                    <p class="item-head">Sarjapur Road</p></a>
+                    <p class="item-subhead">388 Places</p>
+                </div>
+                <div class="section-2-item">
+                    <a href="https://www.zomato.com/bangalore/lavelle-road-restaurants">
+                    <p class="item-head">Lavelle Road</p></a>
+                    <p class="item-subhead">388 Places</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="section-3">
+        <div class="section-3-container">
+            <div class="section-3-img">
+                <img src="https://b.zmtcdn.com/data/o2_assets/a500ffc2ab483bc6a550aa635f4e55531648107832.png" alt="">
+            </div>
+            
+            <div class="section-3-content">
+                <h1>Get the Zomato App</h1>
+                <p>
+                    Download the app from
+                </p>
+                <div class="section-3-download">
+                    <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">    
+                    <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <div class="section-2-heading">
+            <p style="color:black;"> <b>Explore Options near me</b></p>
+        </div>
+        <div class="btn">
+    <a href="https://www.zomato.com/beverages-restaurants-near-me">
+		<button style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"> Cities near me</button></a>
+    <a href="https://www.zomato.com/bakeries-near-me">
+		<button style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;"> Restaurant near me</button></a>
+    <a href="https://www.zomato.com/bangalore/restaurants/biryani-blues">
+		<button style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">Top Restaurant near me</button></a>
+    <a href="https://www.zomato.com/bangalore">
+		<button style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">Cities We Deliver To</button></a>
+    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+    
+    
+    <section class="footer">
+        <div class="sec-7">
+            <div class="first">
+                <div>
+                    <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" >
+                </div>
+                <div class="first-1">
+                    <div>
+                        <span>India</span>
+                    </div>
+                    <div>
+                        <span>English</span>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="second">
+                <div>
+                    <h4>Company</h4>
+                    <a href="#">Who We are</a>
+                    <a href="#">Blog</a>
+                    <a href="#">WORK with Us</a>
+                    <a href="#">Investor Relation</a>
+                    <a href="#">Report Fruad</a>
+                    <a href="#">contact us </a>
+                </div>
+
+                <div>
+                    <h4>Company</h4>
+                    <a href="#">Who We are</a>
+                    <a href="#">Blog</a>
+                    <a href="#">WORK with Us</a>
+                    <a href="#">Investor Relation</a>
+                    <a href="#">Report Fruad</a>
+                    <a href="#">contact us </a>
+                </div>
+
+                <div>
+                    <h4>Company</h4>
+                    <a href="#">Who We are</a>
+                    <a href="#">Blog</a>
+                    <a href="#">WORK with Us</a>
+                    <a href="#">Investor Relation</a>
+                    <a href="#">Report Fruad</a>
+                    <a href="#">contact us </a>
+                </div>
+
+
+                <div>
+                    <h4>Company</h4>
+                    <a href="#">Who We are</a>
+                    <a href="#">Blog</a>
+                    <a href="#">WORK with Us</a>
+                    <a href="#">Investor Relation</a>
+                    <a href="#">Report Fruad</a>
+                    <a href="#">contact us </a>
+                </div> 
+                 <div class="box-4">
+                    <h4> Social Links</h4>
+                    <div>
+                         <i class="fab fa-facebook"></i>
+                         <i class="fab fa-twitter"></i>
+                         <i class="fab fa-instagram"></i>
+                    </div>
+                    <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" >
+                    <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" >
+                 </div>
+
+
+            </div>
+            <hr>
+            <p class="third">&copy;By Shiladitya,, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.</p>
+        </div>
+    </section>
+
+
+
+   
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .slider-container {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-auto-flow: column;
+    
+    
+  }
+  
+  .slider {
+    
+    display: grid;
+    grid-auto-flow: column;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  

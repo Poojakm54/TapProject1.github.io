@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+    
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(247, 237, 237);
+    place-items: centre;
+    color: black;
+    
+    overflow: auto;
+}
+.container{
+    overflow-x: auto;
+    overscroll-behavior: contain;
+    background-color: white;
+    padding: 3rem;
+    
+    
+}
+.story-container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 5rem;
+    grid-gap: 5rem;
+    padding: 1rem;
+   
+}
+.story-container .content{
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    transition: all 0.2sec ease-in; 
+    
+}
+.story-container .content .image-container img:hover {
+    transform: scale(2,2);
+}
+.story-container .content .image-container{
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background:
+
+    radial-gradient(rgba(0, 0, 0, 0.15) 60%, transparent 10%),
+    radial-gradient(white 65%, transparent 10%),
+    linear-gradient(to top right, orange, deeppink);
+
+}
+.story-container .content .image-container img{
+    display: block;
+    width: 100%;
+    height:  100%; 
+    object-fit: cover;
+    clip-path: circle(41%);
+    
+}
+.story-container.content :last-child::after{
+    content: ' ';
+    position: relative;
+    width: 2rem;
+    right: -2rem;
+    height: 100%;
+}
+.story-container .content .text-container{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+.whole{
+    
+    display: grid;
+    grid-auto-flow: column;
+   padding: 1px;
+    position: relative;
+    
+ 
+}
+.whole .fstdiv{
+    display:grid;
+    grid-gap: 0.1rem;
+    grid-auto-flow: column;
+   
+}
+.whole .fstdiv i{
+    float: right;
+    padding: 5px;
+    
+}
+.whole .secddiv{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+.whole .secddiv i{
+    float: right;
+    padding: 5px;
+}
+.whole .thirddiv {
+    display: grid;
+    grid-auto-flow: column; 
+}
+.whole .thirddiv i{
+    float: right;
+    padding: 5px;
+}
+
+
+
+
+
+
+.who{
+    background-color: burlywood;
+   border: 2px  solid black;
+}
+.who .whole1{
+display: flex;
+padding: 20px;
+margin: 5px solid black;
+
+}
+.who .whole1 .fst{
+    border: 2px solid rgb(231, 22, 22);
+    padding: 20px;
+    display: flex;
+}
+.who .whole1 .fst .fst1 img{
+    padding-bottom: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border: 2px solid rgb(15, 226, 61);
+}
+
+.who .whole1 .fst .fst1{
+    border: 5px solid black;
+    padding: 30px;
+}
+.who .whole1 .fst .fst2{
+    border: 5px solid rgb(23, 236, 172);
+    padding: 30px;
+}
+.who .whole1 .fst .fst3{
+    border: 5px solid black;
+    padding: 30px;
+}
+
+
+
+
+
+.api{
+    
+    display: grid;
+    grid-auto-flow: column;
+   padding: 1px;
+    position: relative;
+
+}
+.api .bar{
+    display: flex;
+    justify-content: left;
+    
+
+}
+.api .location .place{
+   
+    display: grid;
+    grid-auto-flow: column;
+   padding: 1px;
+grid-gap: 0px;
+    position: relative;
+    border: 1px solid black;
+}
+.api .login {
+display: flex;
+   justify-content: right;
+}
+.api .login a{
+
+    text-decoration: none;
+    padding: 10px;
+} 
+
+
+.from{
+position: relative;
+border: 5px solid black;
+}
+.from .hol  {
+    display: grid;
+    grid-auto-flow: column;
+    border: 5px solid black;
+    width: 90%;
+}
+.two {
+    display: grid;
+    grid-auto-flow: column;
+   
+    
+    
+}
+.two img{
+    padding: 2rem;
+    overflow-x: hidden;
+    
+}
+
+
+
+.cover{
+    position: relative;
+    width: 90%;
+    height: 50%;
+}
+.cover::before{
+    position: relative;
+   
+    top: 0;
+    left: 0px;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(90deg black,transparent);
+}
+.cover::after{
+    position: relative;
+    
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(90deg,black,transparent);
+}
+.scroll-images{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   overflow: auto;
+   position: relative;
+   scroll-behavior: smooth;
+}
+.child{
+    min-width: 600px;
+    height: 450px;
+    margin: 1px 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.scroll-images::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.child-img{
+    width: 100%;
+    height: 100%;
+
+}
+.scroll{
+    color: rgb(67, green, blue);
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: opx 20px;
+    cursor: pointer;
+}
+.scrollabe-tabs-container{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #000;
+    min-width: 700px;
+    margin: 16px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.scrollabe-tabs-container svg{
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+ border-radius: 50%;
+  
+}
+.scrollabe-tabs-container ul{
+    display: flex;
+    gap: 16px;
+    padding: 12px 24px;
+    margin: 0px;
+    list-style-type: none;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    
+}
+.scrollabe-tabs-container ul::-webkit-scrollbar{
+    display: none;
+}
+
+.scrollabe-tabs-container a{
+    color: #fff;
+    text-decoration: none;
+    background: #333;
+ padding: 4px 24px;
+ display: inline-block;
+    border-radius: 4px;
+    user-select: none;
+}
+.scrollabe-tabs-container a.active{
+    background-color: white;
+    color: #000;
+}
+.scrollabe-tabs-container .right-arrow,
+.scrollabe-tabs-container  .left-arrow{
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    top: 0;
+    display: none;
+    align-items: center;
+}
+
+.scrollabe-tabs-container .right-arrow.active,
+.scrollabe-tabs-container .left-arrow.active{
+ display: flex;
+}
+.scrollabe-tabs-container .right-arrow{
+    right: 0;
+    background:linear-gradient(to left,#000 50%,transparent) ;
+    justify-content: flex-end;
+    padding: 0 10px;
+
+}
+.scrollabe-tabs-container .left-arrow{
+   
+    background:linear-gradient(to right,#000 50%,transparent) ;
+   }
+   .scrollabe-tabs-container svg:hover{
+    background: #333;
+   }

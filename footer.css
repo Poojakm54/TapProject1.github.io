@@ -1,0 +1,25 @@
+
+
+.box-continer {
+    border: 2px solid black;
+    margin: 0px;
+    padding: 20px;
+}
+.box-continer h2{
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+.box-continer .one{
+    letter-spacing: 0.2rem;
+margin: 0px 0px 1.2rem;
+    font-size: 1.4rem2;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.box{
+    display:inline-block;
+    line-height: 30px;
+    
+}

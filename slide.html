@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zomato-like Web Page</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+
+    header {
+      background-color: #e74c3c;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .restaurant-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .restaurant-card:hover {
+      transform: scale(1.05);
+    }
+
+    .restaurant-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .restaurant-details {
+      padding: 15px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Zomato-like Web Page</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Explore</a>
+    <a href="#">Orders</a>
+    <a href="#">Profile</a>
+  </nav>
+
+  <section>
+    <div class="restaurant-card">
+      <img class="restaurant-image" src="restaurant1.jpg" alt="Restaurant 1">
+      <div class="restaurant-details">
+        <h2>Restaurant 1</h2>
+        <p>Cuisine: Italian</p>
+        <p>Rating: 4.5</p>
+      </div>
+    </div>
+
+    <div class="restaurant-card">
+      <img class="restaurant-image" src="restaurant2.jpg" alt="Restaurant 2">
+      <div class="restaurant-details">
+        <h2>Restaurant 2</h2>
+        <p>Cuisine: Mexican</p>
+        <p>Rating: 4.2</p>
+      </div>
+    </div>
+
+    <!-- Add more restaurant cards as needed -->
+  </section>
+
+  <footer>
+    &copy; 2024 Zomato-like Web Page
+  </footer>
+
+</body>
+</html>

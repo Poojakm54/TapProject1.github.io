@@ -1,0 +1,373 @@
+
+body{
+  
+    font-size: 30px;
+    padding-left:4%;
+    padding-right: 4%;
+
+}
+
+.api{
+    
+    display: grid;
+    grid-auto-flow: column;
+   
+   
+   
+
+}
+.api .bar{
+    display: grid;
+    justify-content: left;
+    text-decoration: none;
+   
+    
+}
+
+
+.api .bar  a{
+   text-decoration: none;
+   color: black;
+ 
+   
+   font-size: 40px;
+}
+
+.api .location .place{
+   
+    display: grid;
+    grid-auto-flow: column;
+   
+grid-gap: 0px;
+    position: relative;
+   
+}
+.api .location{
+    margin-top: 0px;
+}
+
+.api .location input{
+    padding: 10px 10px;
+    width: 300px;
+}
+.api .login {
+display: flex;
+   justify-content: right;
+  
+}
+.api .login a{
+    color: #333;
+    text-decoration: none;
+    padding: 20px;
+    padding-right: 50px;
+    font-size: 20px;
+} 
+
+.whole3{
+    
+    display: flex;
+    grid-auto-flow: column;
+    margin: 0px;
+  
+      position: relative;
+    
+}
+.whole{
+    
+    display: flex;
+    grid-auto-flow: column;
+
+    position: relative;
+}
+.whole .fstdiv{
+    display:grid;
+  padding: 10px;
+    grid-auto-flow: column;
+   
+   
+}
+.whole .fstdiv i{
+    float: right;
+    
+    
+    
+}
+.fstdiv{
+    
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid red;
+}
+.secddiv{
+   
+margin-left: 10px;
+
+
+    display: inline-block;
+    
+}
+.thirddiv{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.fstdiv h3{
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+ 
+    margin-top: 0px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin: 0;
+   
+}
+.secddiv h3{
+  
+    margin-top: 0px;
+    font-size: 30px;
+}
+.thirddiv h3{
+
+    margin-top: 0px;
+    font-size: 30px;
+}
+.whole .secddiv{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 10px;
+    
+}
+.whole .secddiv i{
+    float: right;
+    
+}
+.whole .thirddiv {
+    display: grid;
+    grid-auto-flow: column; 
+    padding: 10px;
+}
+.whole .thirddiv i{
+    float: right;
+  
+}
+
+
+
+.scrollabe-tabs-container{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    min-width: 900px;
+    margin: 16px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    background: #ecf0f3;
+}
+.scrollabe-tabs-container svg{
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+ border-radius: 50%;
+  
+}
+.scrollabe-tabs-container ul{
+    display: flex;
+    gap: 16px;
+    padding: 12px 24px;
+    margin: 0px;
+    list-style-type: none;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+   
+
+}
+
+.scrollabe-tabs-container ul li img{
+    height: 140px;
+    width: 140px;  
+    background-image: none;
+  border-radius: 50%;
+}
+.scrollabe-tabs-container ul::-webkit-scrollbar{
+    display: none;
+}
+
+.scrollabe-tabs-container a{
+    color: #fff;
+    text-decoration: none;
+
+ padding: 4px 24px;
+ display: inline-block;
+    border-radius: 4px;
+    user-select: none;
+}
+.scrollabe-tabs-container {
+    border-radius: 20px;
+}
+.scrollabe-tabs-container a.active{
+    background-color: white;
+    
+}
+
+.scrollabe-tabs-container .right-arrow,
+.scrollabe-tabs-container  .left-arrow{
+    position: absolute;
+    height: 100%;
+    width: 100px;
+    top: 0;
+    display: none;
+    align-items: center;
+}
+
+.scrollabe-tabs-container .right-arrow.active,
+.scrollabe-tabs-container .left-arrow.active{
+ display: flex;
+}
+.scrollabe-tabs-container .right-arrow{
+    right: 0;
+  
+    justify-content: flex-end;
+    padding: 0 10px;
+
+}
+.scrollabe-tabs-container .left-arrow{
+   
+   
+   }
+   .scrollabe-tabs-container svg:hover{
+    background: #333;
+   }
+   
+
+
+
+   
+.who{
+    background-color: burlywood;
+   border: 2px  solid black;
+}
+.who .whole1{
+display: flex;
+padding: 20px;
+margin: 5px solid black;
+
+}
+.who .whole1 .fst{
+    border: 2px solid rgb(231, 22, 22);
+    padding: 20px;
+    display: flex;
+}
+.who .whole1 .fst .fst1 img{
+    padding-bottom: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border: 2px solid rgb(15, 226, 61);
+}
+
+.who .whole1 .fst .fst1{
+    border: 5px solid black;
+    padding: 30px;
+}
+.who .whole1 .fst .fst2{
+    border: 5px solid rgb(23, 236, 172);
+    padding: 30px;
+}
+.who .whole1 .fst .fst3{
+    border: 5px solid black;
+    padding: 30px;
+}
+
+
+.im{
+display: flex;   
+padding: 20px; 
+    
+border: 2px solid  orange;
+}
+.image{
+   
+    border:2px solid red;
+}
+.image .image1 img{
+height: 300px;
+width: 90%;
+border: 2px solid green;
+border-radius: 8px;
+}
+.image .image2 img{
+    height: 300px;
+    width: 90%;
+    border-radius: 8px;
+    }
+.image .image3 img{
+        height: 300px;
+        width: 90%;
+        border-radius: 8px;
+        }
+.im p{
+    font-size: 20px;
+}
+
+
+
+
+.box-continer .main{
+   
+    display:grid;
+    grid-gap: 2rem;
+    grid-auto-flow: column;
+   
+   
+}
+.box-continer{
+    margin-left: 3rem;
+    padding-left: 90px;
+}
+.box-continer h2{
+    padding-top: 90px;
+}
+
+
+.main .box a h5{
+padding-bottom: 200px;
+
+
+}
+.main .box a{
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.box{
+    display:grid;
+    grid-auto-flow: row;
+    text-decoration: none;
+ 
+   text-align: justify;
+    font-size: 25px;     
+}
+.box h{
+    margin-bottom: 2px;
+}
+.on{
+    margin-top: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    text-decoration: none;
+    background: #ecf0f3;
+}
+.pto img{
+    width: 200px;
+    height: 200px;
+}
+.box-continer p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
